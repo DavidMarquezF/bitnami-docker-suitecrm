@@ -45,4 +45,4 @@ php_conf_set "opcache.enable" "Off"
 info "Creating default web server configuration for SuiteCRM"
 web_server_validate
 # Not moving .htaccess because SuiteCRM generates some of them during installation
-ensure_web_server_app_configuration_exists "suitecrm" --type php --apache-move-htaccess "no"
+ensure_web_server_app_configuration_exists "suitecrm" --type php 
